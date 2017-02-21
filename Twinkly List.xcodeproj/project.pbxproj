@@ -1,0 +1,837 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		74DBA2B81E5C1E36007067AD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74DBA2B71E5C1E36007067AD /* AppDelegate.swift */; };
+		74DBA2BA1E5C1E36007067AD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74DBA2B91E5C1E36007067AD /* ViewController.swift */; };
+		74DBA2BD1E5C1E36007067AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74DBA2BB1E5C1E36007067AD /* Main.storyboard */; };
+		74DBA2C01E5C1E36007067AD /* Twinkly_List.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 74DBA2BE1E5C1E36007067AD /* Twinkly_List.xcdatamodeld */; };
+		74DBA2C21E5C1E36007067AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74DBA2C11E5C1E36007067AD /* Assets.xcassets */; };
+		74DBA2C51E5C1E36007067AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74DBA2C31E5C1E36007067AD /* LaunchScreen.storyboard */; };
+		74DBA2D01E5C1E36007067AD /* Twinkly_ListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74DBA2CF1E5C1E36007067AD /* Twinkly_ListTests.swift */; };
+		74DBA2DB1E5C1E36007067AD /* Twinkly_ListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74DBA2DA1E5C1E36007067AD /* Twinkly_ListUITests.swift */; };
+		74DBA2F31E5C1FD4007067AD /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74DBA2F21E5C1FD4007067AD /* BaseViewController.swift */; };
+		74DBA2F51E5C22A2007067AD /* ToDoListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74DBA2F41E5C22A2007067AD /* ToDoListViewController.swift */; };
+		74DBA2F71E5C22E1007067AD /* ToDoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74DBA2F61E5C22E1007067AD /* ToDoItem.swift */; };
+		74DBA2F91E5C22FA007067AD /* ToDoListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74DBA2F81E5C22FA007067AD /* ToDoListViewModel.swift */; };
+		89A407BE0F0382F45BB773D0 /* Pods_Twinkly_List.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5889BC2A11047FE8E36C71E /* Pods_Twinkly_List.framework */; };
+		AF1AE62367ECA2B0E60A949F /* Pods_Twinkly_ListTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B5703366F8FD04CF5844C41 /* Pods_Twinkly_ListTests.framework */; };
+		D72A1B84D78C6C9F5D82C078 /* Pods_Twinkly_ListUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C204C63A73A4F7399D7FDB3 /* Pods_Twinkly_ListUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		74DBA2CC1E5C1E36007067AD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 74DBA2AC1E5C1E36007067AD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 74DBA2B31E5C1E36007067AD;
+			remoteInfo = "Twinkly List";
+		};
+		74DBA2D71E5C1E36007067AD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 74DBA2AC1E5C1E36007067AD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 74DBA2B31E5C1E36007067AD;
+			remoteInfo = "Twinkly List";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0A7C85ACCB09AE1583D97224 /* Pods-Twinkly List.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Twinkly List.release.xcconfig"; path = "Pods/Target Support Files/Pods-Twinkly List/Pods-Twinkly List.release.xcconfig"; sourceTree = "<group>"; };
+		162A34383ABA022CC4497867 /* Pods-Twinkly ListTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Twinkly ListTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Twinkly ListTests/Pods-Twinkly ListTests.release.xcconfig"; sourceTree = "<group>"; };
+		5B5703366F8FD04CF5844C41 /* Pods_Twinkly_ListTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Twinkly_ListTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		74DBA2B41E5C1E36007067AD /* Twinkly List.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Twinkly List.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		74DBA2B71E5C1E36007067AD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		74DBA2B91E5C1E36007067AD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		74DBA2BC1E5C1E36007067AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		74DBA2BF1E5C1E36007067AD /* Twinkly_List.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Twinkly_List.xcdatamodel; sourceTree = "<group>"; };
+		74DBA2C11E5C1E36007067AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		74DBA2C41E5C1E36007067AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		74DBA2C61E5C1E36007067AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74DBA2CB1E5C1E36007067AD /* Twinkly ListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Twinkly ListTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		74DBA2CF1E5C1E36007067AD /* Twinkly_ListTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Twinkly_ListTests.swift; sourceTree = "<group>"; };
+		74DBA2D11E5C1E36007067AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74DBA2D61E5C1E36007067AD /* Twinkly ListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Twinkly ListUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		74DBA2DA1E5C1E36007067AD /* Twinkly_ListUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Twinkly_ListUITests.swift; sourceTree = "<group>"; };
+		74DBA2DC1E5C1E36007067AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74DBA2F21E5C1FD4007067AD /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		74DBA2F41E5C22A2007067AD /* ToDoListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToDoListViewController.swift; sourceTree = "<group>"; };
+		74DBA2F61E5C22E1007067AD /* ToDoItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToDoItem.swift; sourceTree = "<group>"; };
+		74DBA2F81E5C22FA007067AD /* ToDoListViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToDoListViewModel.swift; sourceTree = "<group>"; };
+		7528C65BD618A1DC60B363A1 /* Pods-Twinkly ListUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Twinkly ListUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Twinkly ListUITests/Pods-Twinkly ListUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7A5FCE8D25808067944EB881 /* Pods-Twinkly ListUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Twinkly ListUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Twinkly ListUITests/Pods-Twinkly ListUITests.release.xcconfig"; sourceTree = "<group>"; };
+		7C204C63A73A4F7399D7FDB3 /* Pods_Twinkly_ListUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Twinkly_ListUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C78AE0BC72ECF7F87CC24DD /* Pods-Twinkly ListTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Twinkly ListTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Twinkly ListTests/Pods-Twinkly ListTests.debug.xcconfig"; sourceTree = "<group>"; };
+		94C806F769A17CCF78DE9B39 /* Pods-Twinkly List.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Twinkly List.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Twinkly List/Pods-Twinkly List.debug.xcconfig"; sourceTree = "<group>"; };
+		B5889BC2A11047FE8E36C71E /* Pods_Twinkly_List.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Twinkly_List.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		74DBA2B11E5C1E36007067AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89A407BE0F0382F45BB773D0 /* Pods_Twinkly_List.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74DBA2C81E5C1E36007067AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF1AE62367ECA2B0E60A949F /* Pods_Twinkly_ListTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74DBA2D31E5C1E36007067AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D72A1B84D78C6C9F5D82C078 /* Pods_Twinkly_ListUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		693B444D9805F3F456F6E8EC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B5889BC2A11047FE8E36C71E /* Pods_Twinkly_List.framework */,
+				5B5703366F8FD04CF5844C41 /* Pods_Twinkly_ListTests.framework */,
+				7C204C63A73A4F7399D7FDB3 /* Pods_Twinkly_ListUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		74DBA2AB1E5C1E36007067AD = {
+			isa = PBXGroup;
+			children = (
+				74DBA2B61E5C1E36007067AD /* Twinkly List */,
+				74DBA2CE1E5C1E36007067AD /* Twinkly ListTests */,
+				74DBA2D91E5C1E36007067AD /* Twinkly ListUITests */,
+				74DBA2B51E5C1E36007067AD /* Products */,
+				EB41EE44F1C36B5EC39A3F45 /* Pods */,
+				693B444D9805F3F456F6E8EC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		74DBA2B51E5C1E36007067AD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				74DBA2B41E5C1E36007067AD /* Twinkly List.app */,
+				74DBA2CB1E5C1E36007067AD /* Twinkly ListTests.xctest */,
+				74DBA2D61E5C1E36007067AD /* Twinkly ListUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		74DBA2B61E5C1E36007067AD /* Twinkly List */ = {
+			isa = PBXGroup;
+			children = (
+				74DBA2B71E5C1E36007067AD /* AppDelegate.swift */,
+				74DBA2C11E5C1E36007067AD /* Assets.xcassets */,
+				74DBA2E91E5C1E76007067AD /* Common */,
+				74DBA2EE1E5C1EB2007067AD /* Core Data */,
+				74DBA2C61E5C1E36007067AD /* Info.plist */,
+				74DBA2E81E5C1E6D007067AD /* Managers */,
+				74DBA2F11E5C1EFB007067AD /* Models */,
+				74DBA2EF1E5C1EC1007067AD /* Storyboards */,
+				74DBA2F01E5C1ED8007067AD /* ViewCells */,
+				74DBA2EA1E5C1E81007067AD /* ViewControllers */,
+				74DBA2EC1E5C1E94007067AD /* ViewModels */,
+				74DBA2EB1E5C1E88007067AD /* Views */,
+			);
+			path = "Twinkly List";
+			sourceTree = "<group>";
+		};
+		74DBA2CE1E5C1E36007067AD /* Twinkly ListTests */ = {
+			isa = PBXGroup;
+			children = (
+				74DBA2CF1E5C1E36007067AD /* Twinkly_ListTests.swift */,
+				74DBA2D11E5C1E36007067AD /* Info.plist */,
+			);
+			path = "Twinkly ListTests";
+			sourceTree = "<group>";
+		};
+		74DBA2D91E5C1E36007067AD /* Twinkly ListUITests */ = {
+			isa = PBXGroup;
+			children = (
+				74DBA2DA1E5C1E36007067AD /* Twinkly_ListUITests.swift */,
+				74DBA2DC1E5C1E36007067AD /* Info.plist */,
+			);
+			path = "Twinkly ListUITests";
+			sourceTree = "<group>";
+		};
+		74DBA2E81E5C1E6D007067AD /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Managers;
+			sourceTree = "<group>";
+		};
+		74DBA2E91E5C1E76007067AD /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				74DBA2ED1E5C1EA8007067AD /* Extensions */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		74DBA2EA1E5C1E81007067AD /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				74DBA2B91E5C1E36007067AD /* ViewController.swift */,
+				74DBA2F21E5C1FD4007067AD /* BaseViewController.swift */,
+				74DBA2F41E5C22A2007067AD /* ToDoListViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		74DBA2EB1E5C1E88007067AD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		74DBA2EC1E5C1E94007067AD /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				74DBA2F81E5C22FA007067AD /* ToDoListViewModel.swift */,
+			);
+			name = ViewModels;
+			sourceTree = "<group>";
+		};
+		74DBA2ED1E5C1EA8007067AD /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		74DBA2EE1E5C1EB2007067AD /* Core Data */ = {
+			isa = PBXGroup;
+			children = (
+				74DBA2BE1E5C1E36007067AD /* Twinkly_List.xcdatamodeld */,
+			);
+			name = "Core Data";
+			sourceTree = "<group>";
+		};
+		74DBA2EF1E5C1EC1007067AD /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				74DBA2BB1E5C1E36007067AD /* Main.storyboard */,
+				74DBA2C31E5C1E36007067AD /* LaunchScreen.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		74DBA2F01E5C1ED8007067AD /* ViewCells */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = ViewCells;
+			sourceTree = "<group>";
+		};
+		74DBA2F11E5C1EFB007067AD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				74DBA2F61E5C22E1007067AD /* ToDoItem.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		EB41EE44F1C36B5EC39A3F45 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				94C806F769A17CCF78DE9B39 /* Pods-Twinkly List.debug.xcconfig */,
+				0A7C85ACCB09AE1583D97224 /* Pods-Twinkly List.release.xcconfig */,
+				7C78AE0BC72ECF7F87CC24DD /* Pods-Twinkly ListTests.debug.xcconfig */,
+				162A34383ABA022CC4497867 /* Pods-Twinkly ListTests.release.xcconfig */,
+				7528C65BD618A1DC60B363A1 /* Pods-Twinkly ListUITests.debug.xcconfig */,
+				7A5FCE8D25808067944EB881 /* Pods-Twinkly ListUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		74DBA2B31E5C1E36007067AD /* Twinkly List */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74DBA2DF1E5C1E36007067AD /* Build configuration list for PBXNativeTarget "Twinkly List" */;
+			buildPhases = (
+				0E81AB4DD0C6CB4F49E5A82E /* [CP] Check Pods Manifest.lock */,
+				74DBA2B01E5C1E36007067AD /* Sources */,
+				74DBA2B11E5C1E36007067AD /* Frameworks */,
+				74DBA2B21E5C1E36007067AD /* Resources */,
+				2C817510892EB46E692B65DB /* [CP] Embed Pods Frameworks */,
+				0F5483615CB6CBA946D1CA7C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Twinkly List";
+			productName = "Twinkly List";
+			productReference = 74DBA2B41E5C1E36007067AD /* Twinkly List.app */;
+			productType = "com.apple.product-type.application";
+		};
+		74DBA2CA1E5C1E36007067AD /* Twinkly ListTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74DBA2E21E5C1E36007067AD /* Build configuration list for PBXNativeTarget "Twinkly ListTests" */;
+			buildPhases = (
+				44106EF5DC19EED0288976D1 /* [CP] Check Pods Manifest.lock */,
+				74DBA2C71E5C1E36007067AD /* Sources */,
+				74DBA2C81E5C1E36007067AD /* Frameworks */,
+				74DBA2C91E5C1E36007067AD /* Resources */,
+				9FE9EDA79C67CC4F292AF861 /* [CP] Embed Pods Frameworks */,
+				A08758E1A272827471594793 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				74DBA2CD1E5C1E36007067AD /* PBXTargetDependency */,
+			);
+			name = "Twinkly ListTests";
+			productName = "Twinkly ListTests";
+			productReference = 74DBA2CB1E5C1E36007067AD /* Twinkly ListTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		74DBA2D51E5C1E36007067AD /* Twinkly ListUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74DBA2E51E5C1E36007067AD /* Build configuration list for PBXNativeTarget "Twinkly ListUITests" */;
+			buildPhases = (
+				8CF9F45769AB0F50DD9CAE00 /* [CP] Check Pods Manifest.lock */,
+				74DBA2D21E5C1E36007067AD /* Sources */,
+				74DBA2D31E5C1E36007067AD /* Frameworks */,
+				74DBA2D41E5C1E36007067AD /* Resources */,
+				EC40DF84A553F7FB3D7F26F7 /* [CP] Embed Pods Frameworks */,
+				C05767A84A6335FFC196D8FA /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				74DBA2D81E5C1E36007067AD /* PBXTargetDependency */,
+			);
+			name = "Twinkly ListUITests";
+			productName = "Twinkly ListUITests";
+			productReference = 74DBA2D61E5C1E36007067AD /* Twinkly ListUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		74DBA2AC1E5C1E36007067AD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Seref Bulbul";
+				TargetAttributes = {
+					74DBA2B31E5C1E36007067AD = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					74DBA2CA1E5C1E36007067AD = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 74DBA2B31E5C1E36007067AD;
+					};
+					74DBA2D51E5C1E36007067AD = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 74DBA2B31E5C1E36007067AD;
+					};
+				};
+			};
+			buildConfigurationList = 74DBA2AF1E5C1E36007067AD /* Build configuration list for PBXProject "Twinkly List" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 74DBA2AB1E5C1E36007067AD;
+			productRefGroup = 74DBA2B51E5C1E36007067AD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				74DBA2B31E5C1E36007067AD /* Twinkly List */,
+				74DBA2CA1E5C1E36007067AD /* Twinkly ListTests */,
+				74DBA2D51E5C1E36007067AD /* Twinkly ListUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		74DBA2B21E5C1E36007067AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74DBA2C51E5C1E36007067AD /* LaunchScreen.storyboard in Resources */,
+				74DBA2C21E5C1E36007067AD /* Assets.xcassets in Resources */,
+				74DBA2BD1E5C1E36007067AD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74DBA2C91E5C1E36007067AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74DBA2D41E5C1E36007067AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0E81AB4DD0C6CB4F49E5A82E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		0F5483615CB6CBA946D1CA7C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Twinkly List/Pods-Twinkly List-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2C817510892EB46E692B65DB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Twinkly List/Pods-Twinkly List-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		44106EF5DC19EED0288976D1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8CF9F45769AB0F50DD9CAE00 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9FE9EDA79C67CC4F292AF861 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Twinkly ListTests/Pods-Twinkly ListTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A08758E1A272827471594793 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Twinkly ListTests/Pods-Twinkly ListTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C05767A84A6335FFC196D8FA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Twinkly ListUITests/Pods-Twinkly ListUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EC40DF84A553F7FB3D7F26F7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Twinkly ListUITests/Pods-Twinkly ListUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		74DBA2B01E5C1E36007067AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74DBA2F91E5C22FA007067AD /* ToDoListViewModel.swift in Sources */,
+				74DBA2BA1E5C1E36007067AD /* ViewController.swift in Sources */,
+				74DBA2F31E5C1FD4007067AD /* BaseViewController.swift in Sources */,
+				74DBA2F71E5C22E1007067AD /* ToDoItem.swift in Sources */,
+				74DBA2C01E5C1E36007067AD /* Twinkly_List.xcdatamodeld in Sources */,
+				74DBA2F51E5C22A2007067AD /* ToDoListViewController.swift in Sources */,
+				74DBA2B81E5C1E36007067AD /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74DBA2C71E5C1E36007067AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74DBA2D01E5C1E36007067AD /* Twinkly_ListTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74DBA2D21E5C1E36007067AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74DBA2DB1E5C1E36007067AD /* Twinkly_ListUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		74DBA2CD1E5C1E36007067AD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 74DBA2B31E5C1E36007067AD /* Twinkly List */;
+			targetProxy = 74DBA2CC1E5C1E36007067AD /* PBXContainerItemProxy */;
+		};
+		74DBA2D81E5C1E36007067AD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 74DBA2B31E5C1E36007067AD /* Twinkly List */;
+			targetProxy = 74DBA2D71E5C1E36007067AD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		74DBA2BB1E5C1E36007067AD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				74DBA2BC1E5C1E36007067AD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		74DBA2C31E5C1E36007067AD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				74DBA2C41E5C1E36007067AD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		74DBA2DD1E5C1E36007067AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		74DBA2DE1E5C1E36007067AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		74DBA2E01E5C1E36007067AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94C806F769A17CCF78DE9B39 /* Pods-Twinkly List.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Twinkly List/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "co.twinkly.twinkly-list";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		74DBA2E11E5C1E36007067AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A7C85ACCB09AE1583D97224 /* Pods-Twinkly List.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Twinkly List/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "co.twinkly.twinkly-list";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		74DBA2E31E5C1E36007067AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C78AE0BC72ECF7F87CC24DD /* Pods-Twinkly ListTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Twinkly ListTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "co.twinkly.Twinkly-ListTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Twinkly List.app/Twinkly List";
+			};
+			name = Debug;
+		};
+		74DBA2E41E5C1E36007067AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 162A34383ABA022CC4497867 /* Pods-Twinkly ListTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Twinkly ListTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "co.twinkly.Twinkly-ListTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Twinkly List.app/Twinkly List";
+			};
+			name = Release;
+		};
+		74DBA2E61E5C1E36007067AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7528C65BD618A1DC60B363A1 /* Pods-Twinkly ListUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Twinkly ListUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "co.twinkly.Twinkly-ListUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Twinkly List";
+			};
+			name = Debug;
+		};
+		74DBA2E71E5C1E36007067AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A5FCE8D25808067944EB881 /* Pods-Twinkly ListUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Twinkly ListUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "co.twinkly.Twinkly-ListUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Twinkly List";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		74DBA2AF1E5C1E36007067AD /* Build configuration list for PBXProject "Twinkly List" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74DBA2DD1E5C1E36007067AD /* Debug */,
+				74DBA2DE1E5C1E36007067AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74DBA2DF1E5C1E36007067AD /* Build configuration list for PBXNativeTarget "Twinkly List" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74DBA2E01E5C1E36007067AD /* Debug */,
+				74DBA2E11E5C1E36007067AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74DBA2E21E5C1E36007067AD /* Build configuration list for PBXNativeTarget "Twinkly ListTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74DBA2E31E5C1E36007067AD /* Debug */,
+				74DBA2E41E5C1E36007067AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74DBA2E51E5C1E36007067AD /* Build configuration list for PBXNativeTarget "Twinkly ListUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74DBA2E61E5C1E36007067AD /* Debug */,
+				74DBA2E71E5C1E36007067AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		74DBA2BE1E5C1E36007067AD /* Twinkly_List.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				74DBA2BF1E5C1E36007067AD /* Twinkly_List.xcdatamodel */,
+			);
+			currentVersion = 74DBA2BF1E5C1E36007067AD /* Twinkly_List.xcdatamodel */;
+			path = Twinkly_List.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 74DBA2AC1E5C1E36007067AD /* Project object */;
+}
