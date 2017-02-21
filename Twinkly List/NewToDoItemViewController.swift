@@ -1,5 +1,5 @@
 //
-//  ToDoListViewController.swift
+//  NewToDoItemViewController.swift
 //  Twinkly List
 //
 //  Created by Seref Bulbul on 21/02/2017.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ToDoListViewController: UIViewController {
+class NewToDoItemViewController: BaseViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

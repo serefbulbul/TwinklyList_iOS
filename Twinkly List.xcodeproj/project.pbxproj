@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		74DBA2B81E5C1E36007067AD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74DBA2B71E5C1E36007067AD /* AppDelegate.swift */; };
-		74DBA2BA1E5C1E36007067AD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74DBA2B91E5C1E36007067AD /* ViewController.swift */; };
 		74DBA2BD1E5C1E36007067AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74DBA2BB1E5C1E36007067AD /* Main.storyboard */; };
 		74DBA2C01E5C1E36007067AD /* Twinkly_List.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 74DBA2BE1E5C1E36007067AD /* Twinkly_List.xcdatamodeld */; };
 		74DBA2C21E5C1E36007067AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74DBA2C11E5C1E36007067AD /* Assets.xcassets */; };
@@ -16,9 +15,16 @@
 		74DBA2D01E5C1E36007067AD /* Twinkly_ListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74DBA2CF1E5C1E36007067AD /* Twinkly_ListTests.swift */; };
 		74DBA2DB1E5C1E36007067AD /* Twinkly_ListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74DBA2DA1E5C1E36007067AD /* Twinkly_ListUITests.swift */; };
 		74DBA2F31E5C1FD4007067AD /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74DBA2F21E5C1FD4007067AD /* BaseViewController.swift */; };
-		74DBA2F51E5C22A2007067AD /* ToDoListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74DBA2F41E5C22A2007067AD /* ToDoListViewController.swift */; };
+		74DBA2F51E5C22A2007067AD /* ToDoItemsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74DBA2F41E5C22A2007067AD /* ToDoItemsViewController.swift */; };
 		74DBA2F71E5C22E1007067AD /* ToDoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74DBA2F61E5C22E1007067AD /* ToDoItem.swift */; };
-		74DBA2F91E5C22FA007067AD /* ToDoListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74DBA2F81E5C22FA007067AD /* ToDoListViewModel.swift */; };
+		74DBA2F91E5C22FA007067AD /* ToDoItemsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74DBA2F81E5C22FA007067AD /* ToDoItemsViewModel.swift */; };
+		74DBA2FC1E5C6D57007067AD /* ToDosTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74DBA2FA1E5C6D57007067AD /* ToDosTableViewCell.swift */; };
+		74DBA3011E5C7D97007067AD /* NewToDoItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74DBA3001E5C7D97007067AD /* NewToDoItemViewController.swift */; };
+		74DBA3031E5C7DA5007067AD /* ToDoItemDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74DBA3021E5C7DA5007067AD /* ToDoItemDetailViewController.swift */; };
+		74DBA3051E5C7DB2007067AD /* ToDoItemDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74DBA3041E5C7DB2007067AD /* ToDoItemDetailViewModel.swift */; };
+		74DBA3071E5C7DBD007067AD /* NewToDoItemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74DBA3061E5C7DBD007067AD /* NewToDoItemViewModel.swift */; };
+		74DBA3091E5C7DD5007067AD /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74DBA3081E5C7DD5007067AD /* ViewModel.swift */; };
+		74DBA30B1E5C9443007067AD /* ToDoItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74DBA30A1E5C9443007067AD /* ToDoItems.swift */; };
 		89A407BE0F0382F45BB773D0 /* Pods_Twinkly_List.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5889BC2A11047FE8E36C71E /* Pods_Twinkly_List.framework */; };
 		AF1AE62367ECA2B0E60A949F /* Pods_Twinkly_ListTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B5703366F8FD04CF5844C41 /* Pods_Twinkly_ListTests.framework */; };
 		D72A1B84D78C6C9F5D82C078 /* Pods_Twinkly_ListUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C204C63A73A4F7399D7FDB3 /* Pods_Twinkly_ListUITests.framework */; };
@@ -47,7 +53,6 @@
 		5B5703366F8FD04CF5844C41 /* Pods_Twinkly_ListTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Twinkly_ListTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		74DBA2B41E5C1E36007067AD /* Twinkly List.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Twinkly List.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		74DBA2B71E5C1E36007067AD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		74DBA2B91E5C1E36007067AD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		74DBA2BC1E5C1E36007067AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		74DBA2BF1E5C1E36007067AD /* Twinkly_List.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Twinkly_List.xcdatamodel; sourceTree = "<group>"; };
 		74DBA2C11E5C1E36007067AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -60,9 +65,16 @@
 		74DBA2DA1E5C1E36007067AD /* Twinkly_ListUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Twinkly_ListUITests.swift; sourceTree = "<group>"; };
 		74DBA2DC1E5C1E36007067AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		74DBA2F21E5C1FD4007067AD /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
-		74DBA2F41E5C22A2007067AD /* ToDoListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToDoListViewController.swift; sourceTree = "<group>"; };
+		74DBA2F41E5C22A2007067AD /* ToDoItemsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToDoItemsViewController.swift; sourceTree = "<group>"; };
 		74DBA2F61E5C22E1007067AD /* ToDoItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToDoItem.swift; sourceTree = "<group>"; };
-		74DBA2F81E5C22FA007067AD /* ToDoListViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToDoListViewModel.swift; sourceTree = "<group>"; };
+		74DBA2F81E5C22FA007067AD /* ToDoItemsViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToDoItemsViewModel.swift; sourceTree = "<group>"; };
+		74DBA2FA1E5C6D57007067AD /* ToDosTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToDosTableViewCell.swift; sourceTree = "<group>"; };
+		74DBA3001E5C7D97007067AD /* NewToDoItemViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewToDoItemViewController.swift; sourceTree = "<group>"; };
+		74DBA3021E5C7DA5007067AD /* ToDoItemDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToDoItemDetailViewController.swift; sourceTree = "<group>"; };
+		74DBA3041E5C7DB2007067AD /* ToDoItemDetailViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToDoItemDetailViewModel.swift; sourceTree = "<group>"; };
+		74DBA3061E5C7DBD007067AD /* NewToDoItemViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewToDoItemViewModel.swift; sourceTree = "<group>"; };
+		74DBA3081E5C7DD5007067AD /* ViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		74DBA30A1E5C9443007067AD /* ToDoItems.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToDoItems.swift; sourceTree = "<group>"; };
 		7528C65BD618A1DC60B363A1 /* Pods-Twinkly ListUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Twinkly ListUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Twinkly ListUITests/Pods-Twinkly ListUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		7A5FCE8D25808067944EB881 /* Pods-Twinkly ListUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Twinkly ListUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Twinkly ListUITests/Pods-Twinkly ListUITests.release.xcconfig"; sourceTree = "<group>"; };
 		7C204C63A73A4F7399D7FDB3 /* Pods_Twinkly_ListUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Twinkly_ListUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -186,9 +198,10 @@
 		74DBA2EA1E5C1E81007067AD /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				74DBA2B91E5C1E36007067AD /* ViewController.swift */,
 				74DBA2F21E5C1FD4007067AD /* BaseViewController.swift */,
-				74DBA2F41E5C22A2007067AD /* ToDoListViewController.swift */,
+				74DBA3001E5C7D97007067AD /* NewToDoItemViewController.swift */,
+				74DBA3021E5C7DA5007067AD /* ToDoItemDetailViewController.swift */,
+				74DBA2F41E5C22A2007067AD /* ToDoItemsViewController.swift */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -203,7 +216,10 @@
 		74DBA2EC1E5C1E94007067AD /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
-				74DBA2F81E5C22FA007067AD /* ToDoListViewModel.swift */,
+				74DBA3061E5C7DBD007067AD /* NewToDoItemViewModel.swift */,
+				74DBA3041E5C7DB2007067AD /* ToDoItemDetailViewModel.swift */,
+				74DBA2F81E5C22FA007067AD /* ToDoItemsViewModel.swift */,
+				74DBA3081E5C7DD5007067AD /* ViewModel.swift */,
 			);
 			name = ViewModels;
 			sourceTree = "<group>";
@@ -235,6 +251,7 @@
 		74DBA2F01E5C1ED8007067AD /* ViewCells */ = {
 			isa = PBXGroup;
 			children = (
+				74DBA2FA1E5C6D57007067AD /* ToDosTableViewCell.swift */,
 			);
 			name = ViewCells;
 			sourceTree = "<group>";
@@ -243,6 +260,7 @@
 			isa = PBXGroup;
 			children = (
 				74DBA2F61E5C22E1007067AD /* ToDoItem.swift */,
+				74DBA30A1E5C9443007067AD /* ToDoItems.swift */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -337,15 +355,18 @@
 				TargetAttributes = {
 					74DBA2B31E5C1E36007067AD = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = ET37P8CM79;
 						ProvisioningStyle = Automatic;
 					};
 					74DBA2CA1E5C1E36007067AD = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = ET37P8CM79;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 74DBA2B31E5C1E36007067AD;
 					};
 					74DBA2D51E5C1E36007067AD = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = ET37P8CM79;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 74DBA2B31E5C1E36007067AD;
 					};
@@ -541,12 +562,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				74DBA2F91E5C22FA007067AD /* ToDoListViewModel.swift in Sources */,
-				74DBA2BA1E5C1E36007067AD /* ViewController.swift in Sources */,
+				74DBA3011E5C7D97007067AD /* NewToDoItemViewController.swift in Sources */,
+				74DBA2F91E5C22FA007067AD /* ToDoItemsViewModel.swift in Sources */,
+				74DBA3051E5C7DB2007067AD /* ToDoItemDetailViewModel.swift in Sources */,
+				74DBA3031E5C7DA5007067AD /* ToDoItemDetailViewController.swift in Sources */,
+				74DBA30B1E5C9443007067AD /* ToDoItems.swift in Sources */,
 				74DBA2F31E5C1FD4007067AD /* BaseViewController.swift in Sources */,
+				74DBA3071E5C7DBD007067AD /* NewToDoItemViewModel.swift in Sources */,
+				74DBA2FC1E5C6D57007067AD /* ToDosTableViewCell.swift in Sources */,
 				74DBA2F71E5C22E1007067AD /* ToDoItem.swift in Sources */,
 				74DBA2C01E5C1E36007067AD /* Twinkly_List.xcdatamodeld in Sources */,
-				74DBA2F51E5C22A2007067AD /* ToDoListViewController.swift in Sources */,
+				74DBA2F51E5C22A2007067AD /* ToDoItemsViewController.swift in Sources */,
+				74DBA3091E5C7DD5007067AD /* ViewModel.swift in Sources */,
 				74DBA2B81E5C1E36007067AD /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -700,6 +727,7 @@
 			baseConfigurationReference = 94C806F769A17CCF78DE9B39 /* Pods-Twinkly List.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ET37P8CM79;
 				INFOPLIST_FILE = "Twinkly List/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "co.twinkly.twinkly-list";
@@ -713,6 +741,7 @@
 			baseConfigurationReference = 0A7C85ACCB09AE1583D97224 /* Pods-Twinkly List.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ET37P8CM79;
 				INFOPLIST_FILE = "Twinkly List/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "co.twinkly.twinkly-list";
@@ -727,6 +756,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = ET37P8CM79;
 				INFOPLIST_FILE = "Twinkly ListTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "co.twinkly.Twinkly-ListTests";
@@ -742,6 +772,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = ET37P8CM79;
 				INFOPLIST_FILE = "Twinkly ListTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "co.twinkly.Twinkly-ListTests";
@@ -756,6 +787,7 @@
 			baseConfigurationReference = 7528C65BD618A1DC60B363A1 /* Pods-Twinkly ListUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = ET37P8CM79;
 				INFOPLIST_FILE = "Twinkly ListUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "co.twinkly.Twinkly-ListUITests";
@@ -770,6 +802,7 @@
 			baseConfigurationReference = 7A5FCE8D25808067944EB881 /* Pods-Twinkly ListUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = ET37P8CM79;
 				INFOPLIST_FILE = "Twinkly ListUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "co.twinkly.Twinkly-ListUITests";
